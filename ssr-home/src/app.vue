@@ -14,11 +14,6 @@ import Vue from 'vue';
 
 export default Vue.extend({
     name: 'app',
-    metaInfo() {
-        return {
-            title: '首页'
-        };
-    },
     data() {
         return {
             installed: false,
