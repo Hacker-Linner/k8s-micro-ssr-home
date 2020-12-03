@@ -6,7 +6,7 @@
                 <router-link to="/?tab=new">最新</router-link>
             </li>
         </ul>
-        <router-view></router-view>
+        <router-view />
     </div>
 </template>
 <script lang="ts">

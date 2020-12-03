@@ -5,7 +5,7 @@ import Vue from 'vue';
 import VueMeta from 'vue-meta';
 import App from './app.vue';
 
-Vue.use(VueMeta)
+Vue.use(VueMeta);
 
 export default async (clientOptions: ClientOptions): Promise<Vue> => {
     return createClientApp({
